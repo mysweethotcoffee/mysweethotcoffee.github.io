@@ -1,0 +1,215 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio - Laboratório de Projeto II
+Design Gráfico e Multimédia 3º ano
+2º Semestre 2023.24 ESAD.Cr
+Docente Marco Heleno
+31.05.2024 */
+
+*{
+    /* outline: 1px dashed rgb(255, 0, 0); */
+    outline-offset: -1px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* O codigo em questão serve para as pessoas não
+conseguirem guardar as fotos da página.*/
+
+img{
+    pointer-events: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+/* As margens servem para dar espaço entre os conteudos da pagina.
+   Dentro desse conteudo, o padding determina quanto espaço
+   é retirado ao restante. */
+
+body{
+    background-color: #382e48;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* O align e seus derivados servem para alinhar o conteudo em questão.
+   Os codigos de border e seus derivados servem para editar as bordas
+   dos conteudos em questão.*/
+
+body header{
+    align-self: center;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
+    margin-bottom: 30px;
+}
+
+/* O width e height servem para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
+
+
+/* O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão. */
+
+body header nav{
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    background-color: #382e48;
+}
+
+body header nav ul{
+    background-color: transparent;
+    list-style: none;
+    display: inline-block;
+    padding:10px;
+}
+
+body header nav ul li{
+    background-color: transparent;
+    float: left;
+    margin: 10px;
+}
+
+/* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
+
+Color serve para determinar a cor do texto em questão */
+
+body header nav a{
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 800;
+    color:#FDECFB;
+    font-size: 17px;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+/* As margens servem para dar espaço entre os conteudos da pagina. */
+
+body main{
+    align-content: right;
+    margin-left: 0%;
+    background-color: #382e48;
+}
+
+
+body main h1{
+    text-align: left;
+    color: #FDECFB;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: 24px;
+    background-color: #382e48;
+}
+
+body main h2{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    background-color: #382e48;
+    margin-bottom: 10px;
+}
+
+body main h3{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    background-color: #382e48;
+    margin-bottom: 10px;
+}
+
+body main p{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-orientation:sideways;
+    background-color: #382e48;
+}
+
+
+/* As margens servem para dar espaço entre os conteudos da pagina. */
+
+footer{
+    margin-top: 5%;
+    background-color: #382e48;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer p{
+    align-content: left;
+    color: #FDECFB;
+    background-color: #382e48;
+}
+
+
+/* Para aparelhos com ecrãs menores que 600px */
+@media only screen and (max-width: 600px)
+{
+    body header nav ul a{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 16px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
+@media only screen and (max-width: 750px) and (min-width: 600px)  
+{
+    body header nav ul a{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 16px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 750px */
+@media only screen and (min-width: 750px)
+{
+    body header nav ul a{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 16px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px) 
+{
+    body header nav ul a{
+        font-size: 17px;
+    }
+    footer{
+        font-size: 17px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px  */
+@media only screen and (min-width: 1200px)
+{  
+    body header nav ul a{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 19px;
+    }
+}

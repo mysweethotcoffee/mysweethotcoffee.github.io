@@ -1,0 +1,110 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio - Laboratório de Projeto II
+Design Gráfico e Multimédia 3º ano
+2º Semestre 2023.24 ESAD.Cr
+Docente Marco Heleno
+31.05.2024 */
+
+/* O align e seus derivados servem para alinhar o conteudo em questão. */
+
+main{
+    align-content: right;
+    text-align: center;
+    margin-left: 0%;
+}
+
+/* O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão.
+
+As margens servem para dar espaço entre os conteudos da pagina.
+Dentro desse conteudo, o padding determina quanto espaço
+é retirado ao restante. */
+
+table{
+    background-color: rgb(49, 37, 67);
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+/* O width e height servem para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
+
+table tr td{
+    background-color: rgba(49,37,67);
+    width: 50%;
+    height: auto;
+}
+
+table tr td img{
+    width: 100%;
+}
+
+iframe{
+    width: 60%;
+    height: 204px;
+}
+
+/* Para aparelhos com ecrãs maiores que 225px e menores que 400px */
+@media only screen and (max-width: 400px) and (min-width:225px)
+{
+    iframe{
+        width: 100%;
+        height: 145px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 400px e menores que 600px */
+@media only screen and (max-width: 600px) and (min-width: 400px) 
+{
+    iframe{
+        width: 100%;
+        height: 242px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 600px e menores que 700px */
+@media only screen and (max-width: 750px) and (min-width: 600px) 
+{
+    iframe{
+        width: 100%;
+        height: 360px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+    iframe{
+        width: 60%;
+        height: 240px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px)
+{
+    iframe{
+        width: 60%;
+        height: 404px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1200px)
+{
+    table tr td img{
+        width: 100%;
+    }
+    iframe{
+        width: 60%;
+        height: 504px;
+    }
+}

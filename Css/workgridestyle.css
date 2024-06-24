@@ -1,0 +1,120 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio - Laboratório de Projeto II
+Design Gráfico e Multimédia 3º ano
+2º Semestre 2023.24 ESAD.Cr
+Docente Marco Heleno
+31.05.2024 */
+
+/* As margens servem para dar espaço entre os conteudos da pagina.
+Dentro desse conteudo, o padding determina quanto espaço
+é retirado ao restante. 
+
+O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão.
+
+O height, como width, também serve para determinar que
+espaço queremos que todo o conteudo relacionado esteja
+a usar, em relação ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
+
+body main figure{
+    background-color: rgb(49, 37, 67);
+    width: 8%;
+    padding: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    float: left;
+}
+
+body main figure img{
+    width: 100%;
+}
+
+/* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
+
+Color serve para determinar a cor do texto em questão */
+
+body main figure figcaption{
+    text-align: center;
+    color: #FDECFB;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    background-color: rgba(49,37,67);
+}
+
+
+/* O código :hover serve para conseguirmos,nós programadores,
+editar o conteudo em relação a quando alguém passar com
+o rato por cima dele o conteudo possuir diferenças. */
+
+body main figure:hover{
+    background-color: #FDECFB;
+}
+
+footer{
+    clear: left;
+}
+
+
+/* Para aparelhos com ecrãs menores que 600px  */
+@media only screen and (max-width: 600px) 
+{
+    body main figure{
+        width: 98%;
+    }
+    body main figure figcaption
+    {
+        font-size: 26px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
+@media only screen and (max-width: 750px) and (min-width: 600px)  
+{
+    body main figure 
+    {
+        width: 48%;
+    }
+    body main figure figcaption
+    {
+        font-size: 24px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+    body main figure 
+    {
+        width: 31.7%;
+    } 
+    body main figure figcaption
+    {
+        font-size: 22px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px  */
+@media only screen and (min-width: 990px) 
+{
+    body main figure {
+        width: 31.7%;
+    }
+    body main figure figcaption{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px  */
+@media only screen and (min-width: 1200px)
+{
+    body main figure{
+        width: 23.4%;
+    }
+    body main figure figcaption{
+        font-size: 18px;
+    }
+}

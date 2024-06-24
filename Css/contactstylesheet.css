@@ -1,0 +1,397 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio - Laboratório de Projeto II
+Design Gráfico e Multimédia 3º ano
+2º Semestre 2023.24 ESAD.Cr
+Docente Marco Heleno
+31.05.2024 */
+
+/* Flex, display e derivados do flex foram usados
+para melhor distribuir o conteudo dentro da página,
+eles servem para dar mais flexibilidade ao programador
+de coloca-los onde quer. */
+
+body main{
+    padding: 10px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+}
+
+/* As margens servem para dar espaço entre os conteudos da pagina. */
+
+main h1{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+/* O width serve para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão. */
+
+main>div{
+    width: 100%;
+    background: transparent;
+}
+
+/* O align e seus derivados servem para alinhar o conteudo em questão.
+
+O background-color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão. */
+
+main>div>div{
+    display: flex;
+    align-items: center;
+    background-color: #382e48;
+}
+
+/* O height, como width, também serve para determinar que
+espaço queremos que todo o conteudo relacionado esteja
+a usar, em relação ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura.
+
+Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
+
+Color serve para determinar a cor do texto em questão */
+
+#mail{
+    height: 80px;
+    width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+#mail img{
+    color: #3ee0c5;
+    margin-right: 10px;
+    background: transparent;
+    width: 20%;
+}
+#mail a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#youtube{
+    height: 80px;
+    width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+#youtube img{
+    color: #3ee0c5;
+    margin-right: 10px;
+    background: transparent;
+    width: 20%;
+}
+#youtube a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#behance{
+    height: 80px;
+    width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+#behance img{
+    color: #3ee0c5;
+    margin-right: 10px;
+    background: transparent;
+    width: 20%;
+}
+#behance a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#instagram{
+    height: 80px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    width: 48%;
+}
+#instagram img{
+    color: #3ee0c5;
+    margin-right: 10px;
+    background: transparent;
+    width: 20%;
+}
+#instagram a{
+    font-size: 25px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+figcaption{
+    width: 100%;
+    background: transparent;
+}
+figcaption img{
+    width: 100%;
+}
+
+footer p{
+    margin-top: 2%;
+}
+
+/* Para aparelhos com ecrãs maiores que 225px e menores que 400px */
+@media only screen and (max-width: 400px) and (min-width:225px)
+{
+    #mail img{
+        background: transparent;
+        width: 10%;
+    }
+    #mail a{
+        font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 10%;
+    }
+    #youtube a{
+        font-size: 20px;
+    }
+
+    #behance img{
+        background: transparent;
+        width: 10%;
+    }
+    #behance a{
+        font-size: 20px;
+    }
+    
+    #instagram{
+        margin-left: 50%;
+        height: 80px;
+    }
+    #instagram img{
+        background: transparent;
+        width: 12%;
+    }
+    #instagram a{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs menores que 600px e maiores que 400px */
+@media only screen and (max-width: 600px) and (min: 400px)
+{
+    #mail img{
+        background: transparent;
+        width: 20%;
+    }
+    #mail a{
+        font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 20%;
+    }
+    #youtube a{
+        font-size: 20px;
+    }
+
+    #behance img{
+        background: transparent;
+        width: 20%;
+    }
+    #behance a{
+        font-size: 20px;
+    }
+    
+    #instagram img{
+        background: transparent;
+        width: 20%;
+    }
+    #instagram a{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 600px */
+@media only screen and (min-width: 600px) 
+{
+    #mail img{
+        background: transparent;
+        width: 20%;
+    }
+    #mail a{
+        font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 20%;
+    }
+    #youtube a{
+        font-size: 20px;
+    }
+
+    #behance img{
+        background: transparent;
+        width: 20%;
+    }
+    #behance a{
+        font-size: 20px;
+    }
+
+    #instagram img{
+        background: transparent;
+        width: 20%;
+    }
+    #instagram a{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 768px */
+@media only screen and (min-width: 768px)
+{
+    #mail img{
+        background: transparent;
+        width: 10%;
+    }
+    #mail a{
+        font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 10%;
+    }
+    #youtube a{
+        font-size: 20px;
+    }
+
+    #behance{
+        margin-left: 50%;
+        margin-top: -160px;
+        height: 80px;
+    }
+    #behance img{
+        background: transparent;
+        width: 10%;
+    }
+    #behance a{
+        font-size: 20px;
+    }
+    
+    #instagram{
+        margin-left: 50%;
+        height: 80px;
+    }
+    #instagram img{
+        background: transparent;
+        width: 10%;
+    }
+    #instagram a{
+        font-size: 20px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px e menores que 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+    #mail img{
+        background: transparent;
+        width: 10%;
+    }
+    #mail a{
+        font-size: 23px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 10%;
+    }
+    #youtube a{
+        font-size: 23px;
+    }
+
+    #behance{
+        margin-left: 42%;
+        margin-top: -160px;
+        height: 80px;
+    }
+    #behance img{
+        background: transparent;
+        width: 10%;
+    }
+    #behance a{
+        font-size: 23px;
+    }
+    
+    #instagram{
+        margin-left: 42%;
+        height: 80px;
+    }
+    #instagram img{
+        background: transparent;
+        width: 10%;
+    }
+    #instagram a{
+        font-size: 23px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px  */
+@media only screen and (min-width: 1200px)
+{
+    #mail img{
+        background: transparent;
+        width: 10%;
+    }
+    #mail a{
+        font-size: 25px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 10%;
+    }
+    #youtube a{
+        font-size: 25px;
+    }
+
+    #behance{
+        margin-left: 40%;
+        margin-top: -160px;
+        height: 80px;
+    }
+    #behance img{
+        background: transparent;
+        width: 10%;
+    }
+    #behance a{
+        font-size: 25px;
+    }
+    
+    #instagram{
+        margin-left: 40%;
+        height: 80px;
+    }
+    #instagram img{
+        background: transparent;
+        width: 10%;
+    }
+    #instagram a{
+        font-size: 25px;
+    }
+}
