@@ -46,7 +46,10 @@ body main div h3{
 body main div p{
     font-size: 18px;
 }
-
+span{
+    background-color: transparent;
+    font-style: italic;
+}
 #textbox1{
     margin-top: 5%;
 }
@@ -93,6 +96,20 @@ o height determina a altura. */
     width: 32.7%;
     flex-basis: 50%;
 }
+
+#sketch3{
+    background-color: transparent;
+    flex-basis: 100%;
+    height: 230px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#sketch3 img{
+    background-color: transparent;
+    width: 32.7%;
+    flex-basis: 100%;
+}
+
 iframe{
     width: 60%;
     height: 204px;
@@ -163,6 +180,14 @@ iframe{
     #sketch2 img{
         width: 32%;
     }
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 25%;
+    }  
+    #sketch3 img{
+        width: 32%;
+    }
     iframe{
         width: 100%;
         height: 145px;
@@ -185,6 +210,11 @@ iframe{
         flex-basis: 100%;
         height: 25%;
     }  
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 22%;
+    } 
     iframe{
         width: 100%;
         height: 242px;
@@ -202,6 +232,16 @@ iframe{
         flex-basis: 100%;
         height: 25%;
     }
+    #sketch2{
+        width: 100%;
+        flex-basis: 100%;
+        height: 25%;
+    }
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 22%;
+    }
     iframe{
         width: 100%;
         height: 360px;
@@ -216,11 +256,19 @@ iframe{
         flex-basis: 100%;
         height: 25%;
     }
+
     #sketch2{
         width: 100%;
         flex-basis: 100%;
         height: 25%;
     }
+
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 22%;
+    }
+
     iframe{
         width: 60%;
         height: 240px;
@@ -240,6 +288,13 @@ iframe{
         flex-basis: 100%;
         height: 25%;
     }
+
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 22%;
+    }
+
     iframe{
         width: 60%;
         height: 404px;
@@ -272,6 +327,15 @@ iframe{
     }
     #sketch2 img{
         width: 32%;
+    }
+
+    #sketch3{
+        width: 100%;
+        flex-basis: 100%;
+        height: 25%;
+    }
+    #sketch3 img{
+        width: 22%;
     }
 
     iframe{
