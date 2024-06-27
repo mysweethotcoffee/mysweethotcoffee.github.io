@@ -95,6 +95,11 @@ body header nav a{
 
 /* As margens servem para dar espaço entre os conteudos da pagina. */
 
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #FDECFB;
+}
 body main{
     align-content: right;
     margin-left: 0%;
