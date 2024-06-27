@@ -30,6 +30,7 @@ body main div p{
 span{
     background-color: transparent;
     font-style: italic;
+    font-size: 22px;
 }
 #textbox1{
     margin-top: 5%;
