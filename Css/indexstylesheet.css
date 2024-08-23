@@ -4,9 +4,6 @@ eles servem para dar mais flexibilidade ao programador
 de coloca-los onde quer. */
 
 body main{
-    padding: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -73,18 +70,18 @@ body main div span{
 #two{
     margin-top: 35px;
     flex-basis: 45%;
-    height: 40px;
+    height: auto;
     align-self: center;
 }
 #two h2{
     text-align: center;
 }
 
-#three{
+#two p{
     font-size: 16px;
     flex-basis: 100%;
-    margin-top: 35px;
-    height: 60px;
+    margin-top: 2%;
+    height: auto;
     margin-bottom: 25px;
 }
 
@@ -93,10 +90,6 @@ body main div span{
     margin-top: 25px;
     height: 225px;
     background-color: #A4749F;
-    box-shadow: 10px 10px #000000;
-    border-top-right-radius: 45px;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
 }
 #skillsballon h2{
     margin-top: 10px;
@@ -121,10 +114,6 @@ body main div span{
     flex-basis: 100%;
     height: 135px;
     background-color:#FDECFB;
-    box-shadow: 10px 10px #000000;
-    border-top-right-radius: 45px;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
 }
 #HobbysBallon h2{
     margin-top: 10px;
@@ -149,10 +138,6 @@ body main div span{
     flex-basis: 55%;
     height: 175px;
     background-color:#b98fb5;
-    box-shadow: 10px 10px #000000;
-    border-top-right-radius: 45px;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
     margin-left: -50px;
 }
 #WhatIdoBallon h2{
@@ -179,11 +164,6 @@ body main div span{
     margin-top: 25px;
     height: 225px;
     background-color: #efcfec;
-    box-shadow: 10px 10px #000000;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 45px;
-    border-bottom-right-radius: 45px;
-    border-bottom-left-radius: 45px;
 }
 #softskillsballon h2{
     margin-top: 10px;
@@ -207,9 +187,8 @@ body main div span{
 #seven{
     background-color: transparent;
     flex-basis: 100%;
-    margin-top: 24%;
-    margin-left: -90%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 1.8%;
 }
 #seven p{
     font-size: 16px;
@@ -239,14 +218,13 @@ body main div span{
         font-size: 24px;
     }
     
-    #three{
-        margin-bottom: 20%;
+    #two p{
+        font-size: 16px;
     }
 
     #skillsballon{
         flex-basis: 100%;
         height: 200px;
-        border-bottom-right-radius: 45px;
     }
     #skillsballon li{
         margin-left: 25px;
@@ -256,14 +234,12 @@ body main div span{
         flex-basis: 100%;
         margin-left: 0px;
         height: 130px;
-        border-bottom-right-radius: 45px;
     }
     #WhatIdoBallon{
         margin-left: 0px;
         margin-top: 0px;
         flex-basis: 100%;
         height: 175px;
-        border-bottom-right-radius: 45px;
     }
 
     #seven p{
@@ -290,13 +266,8 @@ body main div span{
         font-size: 24px;
     }
     
-    #three{
+    #two p{
         font-size: 16px;
-        flex-basis: 90%;
-        margin-top: 35px;
-        height: 90px;
-        margin-left: 20px;
-        margin-bottom: 25px;
     }
     
     #skillsballon{
@@ -352,34 +323,31 @@ body main div span{
 {
     #one{
         margin-left: 23px;
-        flex-basis: 45%;
+        flex-basis: 100%;
         height: 25%;
     }
     
     #two{
-        flex-basis: 45%;
-        margin-top: -10px;
-        height: 25%;
+        flex-basis: 100%;
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
     }
     #two h2{
         font-size: 22px;
     }
     
-    #three{
+    #two p{
         font-size: 16px;
-        flex-basis: 90%;
-        margin-top: 35px;
-        height: 90px;
-        margin-left: 23px;
-        margin-bottom: 25px;
     }
     
     #skillsballon{
-        flex-basis: 73%;
+        flex-basis: 70%;
         margin-top: 25px;
-        margin-left: 23px;
+        margin-left: 15%;
+        margin-right: 15%;
         height: 215px;
-        margin-bottom: 10px;
     }
     #skillsballon h2{
         margin-top: 15px;
@@ -392,14 +360,11 @@ body main div span{
     }
     
     #HobbysBallon{
-        flex-basis: 40%;
-        margin-left: 300px;
-        height: 170px;
-        margin-top: -30px;
-        box-shadow: 10px 10px #000000;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 45px;
-        margin-bottom: 10px;
+        flex-basis: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 140px;
+        margin-top: 0px;
     }
     #HobbysBallon h2{
         margin-top: 15px;
@@ -411,11 +376,11 @@ body main div span{
     }
     
     #WhatIdoBallon{
-        margin-top: 15px;
-        flex-basis: 55%;
+        flex-basis: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
         height: 180px;
-        margin-top: -30px;
-        margin-left: 115px;
+        margin-top: -10px;
     }
     #WhatIdoBallon h2{
         margin-top: 15px;
@@ -426,8 +391,24 @@ body main div span{
         margin-left: 20px;
     }
     
-    #seven p{
+    #softskillsballon{
+        flex-basis: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 0px;
+        height: 160px;
+    }
+    #softskillsballon h2{
+        margin-top: 15px;
         font-size: 22px;
+    }
+    #softskillsballon li{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    #seven p{
+        font-size: 18px;
     }
 
 }
@@ -444,25 +425,21 @@ body main div span{
     
     #two{
         flex-basis: 45%;
+        margin-top: -160px;
         height: 40px;
     }
     #two h2{
         font-size: 24px;
     }
     
-    #three{
+    #two p{
         font-size: 16px;
-        flex-basis: 92%;
-        margin-top: 35px;
-        height: 70px;
-        margin-left: 25px;
-        margin-bottom: 25px;
     }
     
     #skillsballon{
-        flex-basis: 70%;
+        flex-basis: 50%;
         margin-top: 25px;
-        margin-left: 25px;
+        margin-left: 2.5%;
         height: 200px;
         margin-bottom: 10px;
     }
@@ -477,13 +454,10 @@ body main div span{
     }
     
     #HobbysBallon{
-        flex-basis: 35%;
-        margin-left: 400px;
+        flex-basis: 45%;
+        margin-left: -2%;
         height: 160px;
-        margin-top: -30px;
-        margin-bottom: 10px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 45px;
+        margin-top: 65px;
     }
     #HobbysBallon h2{
         margin-top: 15px;
@@ -495,16 +469,30 @@ body main div span{
     }
     
     #WhatIdoBallon{
-        flex-basis: 50%;
+        flex-basis: 48%;
         height: 200px;
-        margin-top: -30px;
-        margin-left: 175px;
+        margin-top: -10px;
+        margin-left: 4.5%;
     }
     #WhatIdoBallon h2{
         margin-top: 15px;
         font-size: 24px;
     }
     #WhatIdoBallon li{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    #softskillsballon{
+        flex-basis: 44%;
+        height: 170px;
+        margin-top: -10px;
+        margin-left: -1.9%;
+    }
+    #softskillsballon h2{
+        font-size: 24px;
+    }
+    #softskillsballon li{
         font-size: 16px;
         margin-left: 20px;
     }
@@ -518,50 +506,45 @@ body main div span{
 {
     #one{
         width: 100%;
-        margin-left: 55px;
+        margin-left: 0px;
         flex-basis: 45%;
         height: 25%;
     }
     
     #two{
-        flex-basis: 40%;
+        flex-basis: 45%;
         height: 40px;
+        margin-top: -170px;
     }
     #two h2{
         font-size: 26px;
     }
     
-    #three{
+    #two p{
         font-size: 17px;
-        flex-basis: 80%;
-        margin-top: 35px;
-        height: 60px;
-        margin-left: 100px;
-        margin-bottom: 25px;
     }
     
     #skillsballon{
-        flex-basis: 40%;
+        flex-basis: 42%;
         margin-top: 25px;
         margin-left: 8%;
-        height: 235px;
-        border-bottom-left-radius: 45px;
-        margin-bottom: 10px;
+        height: 200px;
+        margin-bottom: 0px;
     }
     #skillsballon h2{
         font-size: 26px;
     }
     #skillsballon li{
         font-size: 17px;
-        margin-left: 50px;
-        margin-right: 15px;
+        margin-left: 30px;
+        margin-right: 0px;
     }
     
     #HobbysBallon{
-        flex-basis: 30%;
+        flex-basis: 35%;
         margin-left: -2%;
         height: 170px;
-        margin-top: 90px;
+        margin-top: 55px;
         margin-bottom: 10px;
     }
     #HobbysBallon h2{
@@ -573,28 +556,24 @@ body main div span{
     }
     
     #WhatIdoBallon{
-        flex-basis: 35%;
-        height: 210px;
+        flex-basis: 40%;
+        height: 195px;
         margin-top: -10px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 45px;
-        margin-left: 13%;
+        margin-left: 10%;
     }
     #WhatIdoBallon h2{
         font-size: 26px;
     }
     #WhatIdoBallon li{
         font-size: 17px;
-        margin-left: 40px;
+        margin-left: 25px;
     }
 
     #softskillsballon{
-        flex-basis: 34%;
+        flex-basis: 38%;
         margin-left: -2%;
         margin-top: -10px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 45px;
-        height: 200px;
+        height: 170px;
         margin-bottom: 10px;
     }
     #softskillsballon h2{
@@ -602,7 +581,7 @@ body main div span{
     }
     #softskillsballon li{
         font-size: 17px;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-right: 15px;
     }
     
@@ -623,7 +602,7 @@ body main div span{
     
     #two{
         flex-basis: 40%;
-        margin-top: -100px;
+        margin-top: -170px;
         height: 40px;
     }
     #two h2{
@@ -631,70 +610,72 @@ body main div span{
         text-align: center;
     }
     
-    #three{
+    #two p{
         font-size: 19px;
-        flex-basis: 40%;
-        margin-top: -20%;
-        height: 60px;
-        margin-left: 52%;
-        margin-bottom: 25px;
     }
     
     #skillsballon{
         flex-basis: 40%;
         margin-top: 25px;
         margin-left: 8%;
-        height: 235px;
-        border-bottom-left-radius: 45px;
+        height: 210px;
         margin-bottom: 10px;
+        /* border-top-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+        border-top-left-radius: 45px; */
     }
     #skillsballon h2{
         font-size: 30px;
     }
     #skillsballon li{
         font-size: 19px;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-right: 15px;
     }
     
     #HobbysBallon{
-        flex-basis: 30%;
+        flex-basis: 31%;
         margin-left: -2%;
-        height: 170px;
-        margin-top: 90px;
+        height: 180px;
+        margin-top: 55px;
         margin-bottom: 10px;
+        /* border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px; */
     }
     #HobbysBallon h2{
         font-size: 30px;
     }
     #HobbysBallon li{
         font-size: 19px;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     
     #WhatIdoBallon{
         flex-basis: 35%;
         height: 210px;
         margin-top: -10px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 45px;
         margin-left: 13%;
+        /* border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px; */
     }
     #WhatIdoBallon h2{
         font-size: 30px;
     }
     #WhatIdoBallon li{
         font-size: 19px;
-        margin-left: 40px;
+        margin-left: 30px;
     }
 
     #softskillsballon{
-        flex-basis: 34%;
+        flex-basis: 36%;
         margin-left: -2%;
         margin-top: -10px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 45px;
-        height: 200px;
+        height: 175px;
+        /* border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px; */
         margin-bottom: 10px;
     }
     #softskillsballon h2{
@@ -702,7 +683,7 @@ body main div span{
     }
     #softskillsballon li{
         font-size: 19px;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-right: 15px;
     }
     

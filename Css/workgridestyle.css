@@ -12,24 +12,32 @@ a usar, em relação ao espaço da pagina em questão.
 No entanto, enquanto width determina a largura,
 o height determina a altura. */
 
-body main figure{
+main{
+    width: auto;
+    height: 100%;
     background-color: rgb(49, 37, 67);
+}
+div.gallery {
     width: 8%;
-    padding: 0.5%;
-    margin-left: 0.5%;
-    margin-bottom: 0.5%;
+    /* padding: 0.5%; */
+    margin: 0.5%;
+    background-color: rgb(49, 37, 67);
     float: left;
+    width: 180px;
 }
 
-body main figure img{
+div.gallery img{
     width: 100%;
+    height: auto;
 }
 
 /* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
 
 Color serve para determinar a cor do texto em questão */
 
-body main figure figcaption{
+div.desc{
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
     color: #FDECFB;
     font-family: "Play", sans-serif;
@@ -44,70 +52,69 @@ body main figure figcaption{
 editar o conteudo em relação a quando alguém passar com
 o rato por cima dele o conteudo possuir diferenças. */
 
-body main figure:hover{
+div.gallery:hover{
+    background-color: #FDECFB;
+}
+
+figure:hover{
     background-color: #FDECFB;
 }
 
 footer{
+    margin-top: auto;
     clear: left;
 }
-
 
 /* Para aparelhos com ecrãs menores que 600px  */
 @media only screen and (max-width: 600px) 
 {
-    body main figure{
-        width: 98%;
+    div.gallery  {
+        width: 100%;
     }
-    body main figure figcaption
-    {
-        font-size: 26px;
+    div.desc {
+        font-size: 18px;
     }
 }
 
 /* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
 @media only screen and (max-width: 750px) and (min-width: 600px)  
 {
-    body main figure 
-    {
-        width: 48%;
+    div.gallery  {
+        width: 49%;
     }
-    body main figure figcaption
-    {
-        font-size: 24px;
+    div.desc {
+        font-size: 14px;
     }
 }
 
 /* Para aparelhos com ecrãs maiores que 750px  */
 @media only screen and (min-width: 750px)
 {
-    body main figure 
-    {
-        width: 31.7%;
-    } 
-    body main figure figcaption
-    {
-        font-size: 22px;
+    div.gallery  {
+        width: 32.3%;
+    }
+    div.desc {
+        font-size: 12px;
     }
 }
 /* Para aparelhos com ecrãs maiores que 990px  */
 @media only screen and (min-width: 990px) 
 {
-    body main figure {
-        width: 31.7%;
+    div.gallery  {
+        width: 32.3%;
     }
-    body main figure figcaption{
-        font-size: 20px;
+    div.desc {
+        font-size: 16px;
     }
 }
 
 /* Para aparelhos com ecrãs maiores que 1200px  */
 @media only screen and (min-width: 1200px)
 {
-    body main figure{
-        width: 23.4%;
+    div.gallery {
+        width: 32.3%;
     }
-    body main figure figcaption{
+    div.desc{
         font-size: 18px;
     }
 }
