@@ -3,7 +3,7 @@
     outline-offset: -1px;
     margin: 0;
     padding: 0;
-    /* background-color: #000000; */
+    background-color: #000000;
 }
 
 /* O codigo em questão serve para as pessoas não
@@ -27,8 +27,9 @@ body{
     margin-right: 15%; */
     padding: 10px;
     background-image: url("fundo.png");
-    background-position: center;
+    background-position: top;
     background-size: 120%;
+    background-repeat:repeat-y;
 }
 
 /* O align e seus derivados servem para alinhar o conteudo em questão.
@@ -168,26 +169,64 @@ footer p{
     background-color: #382e48;
 }
 
-
-/* Para aparelhos com ecrãs menores que 600px */
-@media only screen and (max-width: 600px)
+/* Para aparelhos com ecrãs menores que 400px */
+@media only screen and (max-width: 400px)
 {
+    body header{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     body header nav ul a{
         font-size: 16px;
+    }
+    body main{
+        margin-left: 5%;
+        margin-right: 5%;
     }
     footer{
         font-size: 16px;
     }
 }
 
-/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
-@media only screen and (max-width: 750px) and (min-width: 600px)  
+/* Para aparelhos com ecrãs menores que 600px */
+@media only screen and (max-width: 600px)
 {
+    body header{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     body header nav ul a{
         font-size: 16px;
     }
+    body main{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     footer{
         font-size: 16px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
+@media only screen and (max-width: 750px) and (min-width: 600px)  
+{
+    body header{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    body header nav ul a{
+        font-size: 16px;
+    }
+    body main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    footer{
+        font-size: 16px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
