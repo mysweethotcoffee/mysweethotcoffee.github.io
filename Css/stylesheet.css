@@ -28,8 +28,8 @@ body{
     padding: 10px;
     background-image: url("fundo.png");
     background-position: top;
-    background-size: 120%;
-    background-repeat:repeat-y;
+    background-size: 35%;
+    background-repeat:repeat;
 }
 
 /* O align e seus derivados servem para alinhar o conteudo em questão.
