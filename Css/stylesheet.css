@@ -156,7 +156,7 @@ footer{
     background-color: #382e48;
     font-family: "Play", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
     margin-left: 15%;
     margin-right: 15%;
     border-top-style: solid;
@@ -237,7 +237,7 @@ footer p{
         font-size: 16px;
     }
     footer{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 /* Para aparelhos com ecrãs maiores que 990px */
@@ -247,7 +247,7 @@ footer p{
         font-size: 17px;
     }
     footer{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -258,6 +258,6 @@ footer p{
         font-size: 20px;
     }
     footer{
-        font-size: 19px;
+        font-size: 16px;
     }
 }

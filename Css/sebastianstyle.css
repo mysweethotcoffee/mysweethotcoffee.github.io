@@ -1,6 +1,5 @@
 body main{
     padding: 10px;
-    margin-left: 2%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -12,12 +11,22 @@ body main{
 }
 
 body main div{
-    flex-basis: 80%;
+    flex-basis: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #382e48;
 }
 
-body main div h2{
+body main h1{
+    flex-basis: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
     font-size: 28px;
+}
+
+body main div h2{
+    font-size: 26px;
 }
 
 body main div h3{
@@ -100,6 +109,7 @@ span{
 iframe{
     width: 60%;
     height: 204px;
+    margin-bottom: 2%;
 }
 
 /* Este codigo está em construção futura
@@ -339,11 +349,10 @@ iframe{
 /* Para aparelhos com ecrãs maiores que 1200px  */
 @media only screen and (min-width: 1200px)
 {  
-    body main{
-        margin-left: 10%;
-    }
     body main div{
-        flex-basis: 82%;
+        flex-basis: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #sketch1{
@@ -352,7 +361,7 @@ iframe{
         height: 25%;
     }
     #sketch1 img{
-        width: 32%;
+        width: 32.9%;
     }
 
     #sketch2{
@@ -383,7 +392,7 @@ iframe{
     }
 
     iframe{
-        width: 60%;
-        height: 504px;
+        width: 49.5%;
+        height: 189px;
     }
 }
