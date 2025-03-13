@@ -3,7 +3,7 @@
     outline-offset: -1px;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #0D0515;
 }
 
 /* O codigo em questão serve para as pessoas não
@@ -22,9 +22,6 @@ img{
    é retirado ao restante. */
 
 body{
-    /* background-color: #482e46; */
-    /* margin-left: 15%;
-    margin-right: 15%; */
     padding: 10px;
     background-position: top;
     background-size: 35%;
@@ -37,43 +34,25 @@ body{
 
 body header{
     align-self: center;
-    border-bottom-style: solid;
-    border-width: 6px;
-    border-color: #A4749F;
-    /* margin-bottom: 30px; */
-    margin-left: 15%;
-    margin-right: 15%;
 }
-
-/* O width e height servem para determinar que espaço queremos
-que todo o conteudo relacionado esteja a usar, em relação
-ao espaço da pagina em questão.
-
-No entanto, enquanto width determina a largura,
-o height determina a altura. */
-
-
-/* O background color serve para determinar que cor
-queremos de fundo dentro do conteudo em questão. */
 
 body header nav{
     width: 100%;
     height: 30%;
     margin: auto;
-    align-content: center;
-    text-align: center;
-    background-color: #382e48;
+    align-content: right;
+    text-align: right;
+    box-shadow: 0px 5px 5px #FFFFFF05;
 }
 
 body header nav ul{
-    background-color: transparent;
     list-style: none;
     display: inline-block;
     padding:10px;
+    margin-right: 100px;
 }
 
 body header nav ul li{
-    background-color: transparent;
     float: left;
     margin: 10px;
 }
@@ -83,89 +62,79 @@ body header nav ul li{
 Color serve para determinar a cor do texto em questão */
 
 body header nav a{
-    background-color: transparent;
     text-decoration: none;
     font-family: "Bodoni Moda", serif;
     font-weight: 800;
-    color:#FDECFB;
+    color:#A7E2FF;
     font-size: 17px;
     text-shadow: 0px 0px 2px #000000;
 }
 
-/* As margens servem para dar espaço entre os conteudos da pagina. */
-
 a {
-    background-color: transparent;
     text-decoration: none;
-    color: #FDECFB;
-}
-body main{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: #382e48;
+    color: #A7E2FF;
 }
 
+body main{
+    margin: 5%;
+}
 
 body main h1{
     text-align: left;
-    color: #FDECFB;
+    color: #FF8E8E;
     font-family: "Play", sans-serif;
     font-weight: 400;
-    font-style: 24px;
-    background-color: #382e48;
+    font-size: 34px;
 }
 
 body main h2{
     text-decoration: none;
     text-align: left;
-    color: #FDECFB;
+    color: #A7E2FF;
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    background-color: #382e48;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 body main h3{
     text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
+    text-align: center;
+    color: #A7E2FF;
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    background-color: #382e48;
     margin-bottom: 10px;
+    font-size: 28px;
 }
 
-body main p{
+body main h4{
     text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
-    font-family: "Play", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-orientation:sideways;
-    background-color: #382e48;
+    text-align: center;
+    color:#FF8E8E;
+    font-family: "Bodoni Moda", serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: transparent;
 }
-
-
-/* As margens servem para dar espaço entre os conteudos da pagina. */
 
 footer{
     padding: 1.8%;
     padding-bottom: 0.5%;
-    background-color: #382e48;
+    background-color: transparent;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: italic;
-    margin-left: 15%;
-    margin-right: 15%;
     border-top-style: solid;
     border-width: 6px;
-    border-color: #A4749F;
+    border-color: #1e0b30;
+    font-size: 24px;
 }
 
 footer p{
-    color: #FDECFB;
-    background-color: #382e48;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #A7E2FF;
 }
 
 /* Para aparelhos com ecrãs menores que 400px */

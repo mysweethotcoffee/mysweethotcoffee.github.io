@@ -1,0 +1,201 @@
+/* Flex, display e derivados do flex foram usados
+para melhor distribuir o conteudo dentro da página,
+eles servem para dar mais flexibilidade ao programador
+de coloca-los onde quer. */
+
+body main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+
+}
+body main h2{
+    background-color: transparent;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+body main h3{
+    color: #FF8E8E;
+}
+
+body main span{
+    font-style: italic;
+    border-radius: 5px;
+    color: #A7E2FF;
+    background-color: #FF8E8E30;
+    margin-right: 20px;
+}
+
+.slider{
+    padding: 2%;
+}
+
+.slider-wrapper{
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 2px 60px 2px #ffffff30;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius:10px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+/* manual navigation */
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 30%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.manual-button {
+    border: 3px solid #A7E2FF;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-button:not(:last-child){
+    margin-right: 2%;
+}
+
+.manual-button:hover{
+    background-color: #A7E2FF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/* automatic navigation */
+
+.navigation-auto{
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 46.5%;
+}
+
+.navigation-auto div{
+    border: 3px solid #A7E2FF;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 16px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #A7E2FF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #A7E2FF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #A7E2FF;
+}
+
+/* Para aparelhos com ecrãs mais pequenos que 420px e maiores que 225px */
+@media only screen and (max-width: 420px) and (min-width:225px)
+{
+
+}
+/* Para aparelhos com ecrãs mais pequenos que 5990px e maiores que 420px */
+@media only screen and (max-width: 599px) and (min-width: 420px) 
+{
+
+}
+
+/* Para aparelhos com ecrãs mais pequenos que 600px */
+@media only screen and (max-width: 600px)
+{
+
+}
+
+/* Para aparelhos com ecrãs mais pequenos que 750px e maiores que 600px */
+@media only screen and (max-width: 750px) and (min-width: 600px) 
+{
+
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px)
+{
+
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1200px)
+{  
+    .navigation-manual{
+        margin-top: 36.5%;
+    }
+    .navigation-auto{
+        margin-top: 36.5%;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1900px)
+{  
+    .navigation-manual{
+        margin-top: 23%;
+    }
+    .navigation-auto{
+        margin-top: 23%;
+    }
+}

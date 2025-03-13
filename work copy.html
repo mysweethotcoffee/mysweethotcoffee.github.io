@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Maria Oliveira">
+    <title>Works</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="Css copys/stylesheetcopy.css">
+    <link rel="stylesheet" href="Css copys/work copy.css">
+</head>
+
+
+<body>
+    <!-- Barra de Navegação -->
+      <header>
+          <nav>
+              <ul>
+                  <li><a href="index copy.html" target="_self"> Home Page</a></li>
+                  <li><a href="work copy.html" target="_self"> Work </a></li>
+                  <li><a href="contact copy.html" target="_self"> Contact Me </a></li>
+                  <li><a href="info.html" target="_self"> Info </a></li>
+              </ul>
+          </nav>
+      </header>
+      <!-- Conteudo da página -->
+      <main>
+          <h2><span>Web Design</span><span>Illustration</span><span>Animations</span><span>UX/UI</span></h2>
+          <section class="slider">
+          <!--image slider start-->
+              <h3>Name of Project</h3>
+              <div class="slider-wrapper">
+                  <div class="slides">
+                      <!--radio buttons start-->
+                      <input type="radio" name="radio-button" id="radio1"/>
+                      <input type="radio" name="radio-button" id="radio2"/>
+                      <input type="radio" name="radio-button" id="radio3"/>
+                      <!--radio buttons end-->
+                      <!--slide images start-->
+                      <div class="slide first">
+                          <img src="Images/ilustration2.jpg" alt=""/>
+                      </div>
+                      <div class="slide">
+                          <img src="Images/personagem.png" alt=""/>
+                      </div>
+                      <div class="slide">
+                          <img src="Images/sebastian.png" alt=""/>
+                      </div>
+                      <!--slide images end-->
+                      <!--automatic navigation start-->
+                      <div class="navigation-auto">
+                          <div class="auto-btn1"></div>
+                          <div class="auto-btn2"></div>
+                          <div class="auto-btn3"></div>
+                      </div>
+                      <!--automatic navigation end-->
+                      <!--manual navigation start-->
+                      <div class="navigation-manual">
+                          <label for="radio1" class="manual-button"></label>
+                          <label for="radio2" class="manual-button"></label>
+                          <label for="radio3" class="manual-button"></label>
+                      </div>
+                      <!--manual navigation end-->
+                  </div>
+              </div>
+              <!--image slider end-->              
+              <h4>Teste</h4>
+          </section>
+          <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+              document.getElementById('radio' + counter).checked = true;
+              counter++;
+              if(counter > 3){
+                counter=1
+              };
+              if(counter < 1){
+                counter=1
+              }
+            }, 5000);
+          </script>
+      <!-- </section>
+      <a href="Projects/Portefolio/portfoliorecap.html" target="_self">
+        <div class="gallery">
+          <img src="Images/capaportefolio.jpg" alt="Projeto"/>
+          <div class="desc">Illustrations Portefolio</div>
+        </div>
+      </a>
+      <a href="Projects/Animação/Sebastião/sebastian.html" target="_self">
+        <div class="gallery">
+          <img src="Images/sebastião.JPG" alt="Sebastião, The Chungus Cat"/>
+          <div class="desc">Sebastião, The Chungus Cat</div>
+        </div>
+      </a>
+      <a href="Projects/UX UI/Moon App/moonapp.html" target="_self">
+        <div class="gallery">
+          <img src="Images/ilustration2.jpg" alt="Moon"/>
+          <div class="desc">Moon App</div>
+        </div>
+      </a>
+      <a href="Projects/UX UI/Website radiomiudos/redesignwebsite.html" target="_self">
+        <div class="gallery">
+          <img src="Images/acessibility.png" alt="Webdesign"/>
+          <div class="desc">Redesign Website</div>
+        </div>
+      </a>
+      <a href="Projects/Animação/Objeto Animado/objetoanimado.html" target="_self">
+        <div class="gallery">
+          <img src="Images/copo.JPG" alt="Projeto"/>
+          <div class="desc">Animated 3D Object</div>
+        </div>
+      </a>
+      <a href="Projects/Animação/Miku/mikutrend.html" target="_self">
+        <div class="gallery">
+          <img src="Images/Miku trend.png" alt="Projeto"/>
+          <div class="desc">Miku Trend</div>
+        </div>
+      </a> -->
+    </main>
+  
+    <!-- Rodapé -->
+    <footer>
+      <p>© 2024 - Design and development by Maria Oliveira</p>
+    </footer>
+</body>
+</html>

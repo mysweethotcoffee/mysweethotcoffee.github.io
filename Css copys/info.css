@@ -1,0 +1,174 @@
+/* Flex, display e derivados do flex foram usados
+para melhor distribuir o conteudo dentro da página,
+eles servem para dar mais flexibilidade ao programador
+de coloca-los onde quer. */
+
+body main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+
+}
+
+/* O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão. */
+
+body main div{
+    background-color: transparent;
+}
+
+/* O align e seus derivados servem para alinhar o conteudo em questão. */
+
+body main p{
+    flex-basis: 100%;
+    margin-left: 10%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    text-align: left;
+    color: #FF8E8E;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#introduction{
+    margin-top: 5%;
+    margin-left: 10%;
+    flex-basis: 100%;
+    height: auto;
+}
+
+#imagebox{
+    width: 100%;
+    flex-basis: 30%;
+    height: 570px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 6px #00000060 inset;
+}
+#imagebox img{
+    width: 100%;
+    background-color: #A7E2FF30;
+}
+
+.container{
+    margin-left: 10%;
+}
+
+.thirth a{
+    background-color: transparent;
+}
+
+.thirth span{
+    background-color: transparent;
+    color: #FF8E8E;
+}
+
+.textbox{
+    background-color:#FF8E8E;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 500px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 20px;
+    /* transform: translateY(-100%); */
+    /* transition: transform 0.4s ease; */
+}
+
+.textbox p{
+    color: #0D0515;
+    margin: 15px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.container{
+    margin-top: 2% !important; 
+}
+
+.first show{
+    margin-top: 2%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0%;
+        scale: 0,5;
+    }
+    to{
+        opacity: 100%;
+        scale: 1;
+    }
+}
+
+.textbox{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.textbox:not(:last-child){
+    opacity: 100%;
+}
+/* .textbox:nth-of-type(even){
+    transform: translateY(-150%);
+
+}
+.textbox.show{
+    transform: translateY(0);
+} */
+
+/* Para aparelhos com ecrãs mais pequenos que 420px e maiores que 225px */
+@media only screen and (max-width: 420px) and (min-width:225px)
+{
+
+}
+/* Para aparelhos com ecrãs mais pequenos que 5990px e maiores que 420px */
+@media only screen and (max-width: 599px) and (min-width: 420px) 
+{
+
+}
+
+/* Para aparelhos com ecrãs mais pequenos que 600px */
+@media only screen and (max-width: 600px)
+{
+
+}
+
+/* Para aparelhos com ecrãs mais pequenos que 750px e maiores que 600px */
+@media only screen and (max-width: 750px) and (min-width: 600px) 
+{
+
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px)
+{
+
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1200px)
+{  
+
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1900px)
+{  
+   #imagebox{
+    flex-basis: 30%;
+    height: 570px;
+    }
+}
