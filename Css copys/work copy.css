@@ -22,6 +22,7 @@ body main h2{
 
 body main h3{
     color: #FF8E8E;
+    background-color: transparent;
 }
 
 body main span{
@@ -34,11 +35,12 @@ body main span{
 
 .slider{
     padding: 2%;
+    background-color: transparent;
 }
 
 .slider-wrapper{
-    width: 800px;
-    height: 500px;
+    width: 470px;
+    height: 290px;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 2px 60px 2px #ffffff30;
@@ -46,7 +48,7 @@ body main span{
 
 .slides{
     width: 500%;
-    height: 500px;
+    height: 290px;
     display: flex;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -63,8 +65,8 @@ body main span{
 }
 
 .slide img{
-    width: 800px;
-    height: 500px;
+    width: 470px;
+    height: 290px;
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
@@ -73,8 +75,8 @@ body main span{
 /* manual navigation */
 .navigation-manual{
     position: absolute;
-    width: 800px;
-    margin-top: 30%;
+    width: 600px;
+    margin-top: 20%;
     display: flex;
     background-color: transparent;
     justify-content: center;
@@ -109,15 +111,43 @@ body main span{
     margin-left: -40%;
 }
 
+/* !!! */
+
+#radio4:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -40%;
+}
+
+/* !!! */
+
+#radio7:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio8:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio9:checked ~ .first{
+    margin-left: -40%;
+}
+
 /* automatic navigation */
 
 .navigation-auto{
     position: absolute;
     background-color: transparent;
     display: flex;
-    width: 800px;
+    width: 600px;
     justify-content: center;
-    margin-top: 46.5%;
+    margin-top: 10%;
 }
 
 .navigation-auto div{
@@ -129,7 +159,7 @@ body main span{
 }
 
 .navigation-auto div:not(:last-child){
-    margin-right: 16px;
+    margin-right: 13px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
@@ -144,58 +174,219 @@ body main span{
     background-color: #A7E2FF;
 }
 
-/* Para aparelhos com ecrãs mais pequenos que 420px e maiores que 225px */
-@media only screen and (max-width: 420px) and (min-width:225px)
-{
+/* !!! */
 
-}
-/* Para aparelhos com ecrãs mais pequenos que 5990px e maiores que 420px */
-@media only screen and (max-width: 599px) and (min-width: 420px) 
-{
-
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #A7E2FF;
 }
 
-/* Para aparelhos com ecrãs mais pequenos que 600px */
-@media only screen and (max-width: 600px)
-{
-
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #A7E2FF;
 }
 
-/* Para aparelhos com ecrãs mais pequenos que 750px e maiores que 600px */
-@media only screen and (max-width: 750px) and (min-width: 600px) 
-{
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: #A7E2FF;
+}
 
+/* !!! */
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: #A7E2FF;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8{
+    background-color: #A7E2FF;
+}
+
+#radio9:checked ~ .navigation-auto .auto-btn9{
+    background-color: #A7E2FF;
+}
+
+
+/* Para aparelhos com ecrãs mais pequenos que 420px */
+@media only screen and (max-width: 420px) 
+{
+    .slider-wrapper{
+        width: 320px;
+        height: 200px;
+    }
+    .slides{
+        width: 500%;
+        height: 200px;
+    }
+    .slide img{
+        width: 320px;
+        height: 200px;
+    }
+    .navigation-manual{
+        margin-left: -130px;
+        margin-top: 180px;
+        width: 600px;
+    }
+    .navigation-auto{
+        margin-left: -130px;
+        margin-top: 180px;
+        width: 600px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 420px */
+@media only screen and (min-width: 420px)
+{
+    .slider-wrapper{
+        width: 350px;
+        height: 240px;
+    }
+    .slides{
+        width: 500%;
+        height: 240px;
+    }    
+    .slide img{
+        width: 350px;
+        height: 240px;
+    }
+    .navigation-manual{
+        margin-left: -120px;
+        margin-top: 220px;
+        width: 600px;
+    }
+    .navigation-auto{
+        margin-left: -120px;
+        margin-top: 220px;
+        width: 600px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 550px */
+@media only screen and (min-width: 550px) 
+{
+    .slider-wrapper{
+        width: 450px;
+        height: 280px;
+    }
+    .slides{
+        width: 500%;
+        height: 280px;
+    }    
+    .slide img{
+        width: 450px;
+        height: 280px;
+    }
+    .navigation-manual{
+        margin-left: -70px;
+        margin-top: 260px;
+        width: 600px;
+    }
+    .navigation-auto{
+        margin-left: -70px;
+        margin-top: 260px;
+        width: 600px;
+    }
 }
 
 /* Para aparelhos com ecrãs maiores que 750px  */
 @media only screen and (min-width: 750px)
 {
-
+    .slider-wrapper{
+        width: 500px;
+        height: 290px;
+    }
+    .slides{
+        width: 500%;
+        height: 290px;
+    }    
+    .slide img{
+        width: 500px;
+        height: 290px;
+    }
+    .navigation-manual{
+        margin-left: -40px;
+        margin-top: 270px;
+        width: 600px;
+    }
+    .navigation-auto{
+        margin-left: -40px;
+        margin-top: 270px;
+        width: 600px;
+    }
 }
 /* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px)
 {
-
+    .slider-wrapper{
+        width: 392px;
+        height: 280px;
+    }
+    .slides{
+        width: 500%;
+        height: 290px;
+    }    
+    .slide img{
+        width: 392px;
+        height: 280px;
+    }
+    .navigation-manual{
+        margin-left: -100px;
+        margin-top: 260px;
+        width: 600px;
+    }
+    .navigation-auto{
+        margin-left: -100px;
+        margin-top: 260px;
+        width: 600px;
+    }
 }
 
 /* Para aparelhos com ecrãs maiores que 1200px */
 @media only screen and (min-width: 1200px)
 {  
+    .slider-wrapper{
+        width: 475px;
+        height: 290px;
+    }
+    .slides{
+        width: 500%;
+        height: 290px;
+    }    
+    .slide img{
+        width: 475px;
+        height: 290px;
+    }
     .navigation-manual{
-        margin-top: 36.5%;
+        margin-left: -70px;
+        margin-top: 270px;
+        width: 600px;
     }
     .navigation-auto{
-        margin-top: 36.5%;
+        margin-left: -70px;
+        margin-top: 270px;
+        width: 600px;
     }
 }
 
-/* Para aparelhos com ecrãs maiores que 1200px */
+/* Para aparelhos com ecrãs maiores que 1900px */
 @media only screen and (min-width: 1900px)
 {  
+    .slider-wrapper{
+        width: 470px;
+        height: 290px;
+    }
+    .slides{
+        width: 500%;
+        height: 290px;
+    }    
+    .slide img{
+        width: 470px;
+        height: 290px;
+    }
     .navigation-manual{
-        margin-top: 23%;
+        margin-left: -70px;
+        margin-top: 270px;
+        width: 600px;
     }
     .navigation-auto{
-        margin-top: 23%;
+        margin-left: -70px;
+        margin-top: 270px;
+        width: 600px;
     }
 }

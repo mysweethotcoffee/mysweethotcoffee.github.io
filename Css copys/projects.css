@@ -1,0 +1,112 @@
+
+body main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+}
+
+body main div span{
+    margin-top: 30%;
+    color: #F8FF9B;
+    font-style: italic;
+    background-color: #86868630;
+    border-radius: 5px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#introduction{
+    margin-left: 10%;
+    flex-basis: 100%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+#introduction h2{
+    color: #FF8E8E;
+}
+
+#textbox{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #A7E2FF;
+    box-shadow: 10px 10px 0px 1px #A7E2FF30;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    
+}
+
+#textbox p{
+    margin: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: #0D0515;
+    text-align: left;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#textbox2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #A7E2FF;
+    box-shadow: 10px 10px 0px 1px #A7E2FF30;
+    width: 35%;
+    height: 160px;
+    border-radius: 20px;
+    
+}
+
+#textbox2 p{
+    margin: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: #0D0515;
+    text-align: left;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#textbox3{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #A7E2FF;
+    box-shadow: 10px 10px 0px 1px #A7E2FF30;
+    width: 35%;
+    height: 190px;
+    border-radius: 20px;
+    
+}
+
+#textbox3 p{
+    margin: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: #0D0515;
+    text-align: left;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#card-1{
+    margin-left: 12%;
+    width: 420px;
+    height: 280px;
+}
+
+#card{
+    width: 420px;
+    height: 280px;
+}

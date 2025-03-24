@@ -7,7 +7,7 @@ let timeln = gsap.timeline({
         pinSpacing: true,
         start: "top 180px top",
         end: "-=180px",
-        scrub: 1
+        scrub: 1.5
     }
 });
 
@@ -46,6 +46,6 @@ timeln.to(".card-2", {
 }, "=0");
 
 timeln.to(".card-3", {
-    yPercent: 350,
+    yPercent: 400,
     opacity: 1
 });

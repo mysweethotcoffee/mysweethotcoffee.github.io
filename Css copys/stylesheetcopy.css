@@ -57,10 +57,6 @@ body header nav ul li{
     margin: 10px;
 }
 
-/* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
-
-Color serve para determinar a cor do texto em questão */
-
 body header nav a{
     text-decoration: none;
     font-family: "Bodoni Moda", serif;
@@ -107,17 +103,6 @@ body main h3{
     font-size: 28px;
 }
 
-body main h4{
-    text-decoration: none;
-    text-align: center;
-    color:#FF8E8E;
-    font-family: "Bodoni Moda", serif;
-    font-style: italic;
-    margin-bottom: 10px;
-    font-size: 20px;
-    background-color: transparent;
-}
-
 footer{
     padding: 1.8%;
     padding-bottom: 0.5%;
@@ -137,91 +122,96 @@ footer p{
     color: #A7E2FF;
 }
 
-/* Para aparelhos com ecrãs menores que 400px */
-@media only screen and (max-width: 400px)
-{
-    body header{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    body header nav ul a{
-        font-size: 16px;
-    }
-    body main{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    footer{
-        font-size: 16px;
-    }
-}
 
-/* Para aparelhos com ecrãs menores que 600px */
-@media only screen and (max-width: 600px)
+/* Para aparelhos com ecrãs mais pequenos que 420px */
+@media only screen and (max-width: 420px) 
 {
-    body header{
-        margin-left: 8%;
-        margin-right: 8%;
+    body header nav ul{
+        margin-right: 20px;
     }
     body header nav ul a{
-        font-size: 16px;
-    }
-    body main{
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-    footer{
-        font-size: 16px;
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-}
-
-/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
-@media only screen and (max-width: 750px) and (min-width: 600px)  
-{
-    body header{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    body header nav ul a{
-        font-size: 16px;
-    }
-    body main{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    footer{
-        font-size: 16px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-/* Para aparelhos com ecrãs maiores que 750px */
-@media only screen and (min-width: 750px)
-{
-    body header nav ul a{
-        font-size: 16px;
+        font-size: 18px;
     }
     footer{
         font-size: 14px;
     }
 }
-/* Para aparelhos com ecrãs maiores que 990px */
-@media only screen and (min-width: 990px) 
+
+/* Para aparelhos com ecrãs maiores que 420px */
+@media only screen and (min-width: 420px)
 {
+    body header nav ul{
+        margin-right: 20px;
+    }
     body header nav ul a{
-        font-size: 17px;
+        font-size: 18px;
     }
     footer{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
-/* Para aparelhos com ecrãs maiores que 1200px  */
+/* Para aparelhos com ecrãs maiores que 550px */
+@media only screen and (min-width: 550px) 
+{
+    body header nav ul{
+        margin-right: 20px;
+    }
+    body header nav ul a{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+    body header nav ul{
+        margin-right: 50px;
+    }
+    body header nav ul a{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px)
+{
+    body header nav ul{
+        margin-right: 70px;
+    }
+    body header nav ul a{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
 @media only screen and (min-width: 1200px)
 {  
+    body header nav ul{
+        margin-right: 100px;
+    }
+    body header nav ul a{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1900px */
+@media only screen and (min-width: 1900px)
+{  
+    body header nav ul{
+        margin-right: 100px;
+    }
     body header nav ul a{
         font-size: 20px;
     }

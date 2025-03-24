@@ -13,6 +13,7 @@
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
     <script defer src="/Js/teste copy 2.js"></script>
+    <script defer src="/Js/slider.js"></script>
 </head>
 
 <body>
@@ -69,13 +70,14 @@
 
         <section class="slider">
             <!--image slider start-->
-                <h3>Name of Project</h3>
+            <a href="work copy.html" target="_self">
+                <h3>Projetos</h3>
                 <div class="slider-wrapper">
                     <div class="slides">
                         <!--radio buttons start-->
-                        <input type="radio" name="radio-button" id="radio1"/>
-                        <input type="radio" name="radio-button" id="radio2"/>
-                        <input type="radio" name="radio-button" id="radio3"/>
+                        <input type="radio" name="radio-button1" id="radio1"/>
+                        <input type="radio" name="radio-button2" id="radio2"/>
+                        <input type="radio" name="radio-button3" id="radio3"/>
                         <!--radio buttons end-->
                         <!--slide images start-->
                         <div class="slide first">
@@ -95,24 +97,12 @@
                             <div class="auto-btn3"></div>
                         </div>
                         <!--automatic navigation end-->
+                        <!--manual navigation start-->
                     </div>
                 </div>
-                <!--image slider end-->              
-                <h4>Teste</h4>
-            </section>
-            <script type="text/javascript">
-              var counter = 1;
-              setInterval(function(){
-                document.getElementById('radio' + counter).checked = true;
-                counter++;
-                if(counter > 3){
-                  counter=1
-                };
-                if(counter < 1){
-                  counter=1
-                }
-              }, 5000);
-            </script>
+                <!--image slider end-->
+            </a>
+        </section>
 
 
     </main>

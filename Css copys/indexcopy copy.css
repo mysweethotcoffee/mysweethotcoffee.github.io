@@ -28,6 +28,7 @@ body main div span{
     height: 40px;
     align-self: center;
     color: #F8FF9B;
+    font-style: italic;
     background-color: #FF8E8E30;
 }
 
@@ -74,7 +75,6 @@ body main p{
 .card{
     position: absolute;
     background-color: #A7E2FF;
-    color: #0D0515;
     width: 450px;
     height: 150px;
     border-radius: 20px;
@@ -86,6 +86,7 @@ body main p{
     margin: 15px;
     text-align: left;
     background-color: transparent;
+    color: #0D0515;
     text-align: left;
 }
 
@@ -156,6 +157,19 @@ body main p{
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
 }
 
 /* automatic navigation */
