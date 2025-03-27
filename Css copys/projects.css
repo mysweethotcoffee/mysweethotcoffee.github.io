@@ -48,7 +48,6 @@ body main div span{
     text-align: left;
     background-color: transparent;
     color: #0D0515;
-    text-align: left;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -65,13 +64,11 @@ body main div span{
     border-radius: 20px;
     
 }
-
 #textbox2 p{
     margin: 15px;
     text-align: left;
     background-color: transparent;
     color: #0D0515;
-    text-align: left;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -94,7 +91,51 @@ body main div span{
     text-align: left;
     background-color: transparent;
     color: #0D0515;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#textbox4{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #A7E2FF;
+    box-shadow: 10px 10px 0px 1px #A7E2FF30;
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    
+}
+#textbox4 p{
+    margin: 15px;
     text-align: left;
+    background-color: transparent;
+    color: #0D0515;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+#textbox4 a{
+    background-color: transparent;
+}
+
+#textbox5{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #A7E2FF;
+    box-shadow: 10px 10px 0px 1px #A7E2FF30;
+    width: 35%;
+    height: 120px;
+    border-radius: 20px;
+    
+}
+#textbox5 p{
+    margin: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: #0D0515;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -105,8 +146,837 @@ body main div span{
     width: 420px;
     height: 280px;
 }
-
+#card-5{
+    margin-right: 13%;
+    margin-left: 10%;
+    width: 420px;
+    height: 280px;
+}
 #card{
     width: 420px;
     height: 280px;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 60px 2px #ffffff30;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Para aparelhos com ecrãs maiores que 320px */
+@media only screen and (min-width: 320px) 
+{
+    #introduction{
+        margin-left:0%;
+    }
+    #textbox{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 15px;
+    }
+    #textbox p{
+        font-size: 18px;
+    }
+    #card-1{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 155px;
+    }
+    #card-2{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 155px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 10%;
+        width: 220px;
+        height: 220px;
+    }
+
+    #textbox2{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #textbox2 p{
+        font-size: 18px;
+    }
+    #card-4{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 182px;
+    }
+    
+    #textbox3{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 230px;
+        border-radius: 15px;
+    }
+    #textbox3 p{
+        font-size: 18px;
+    }
+    
+    #textbox4{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 390px;
+        border-radius: 15px;
+    }
+    #textbox4 p{
+        font-size: 18px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        margin-bottom: 3%;
+        width: 270px;
+        height: 170px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        width: 270px;
+        height: 170px;
+    }
+    
+    #textbox5{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 145px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 18px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 420px */
+@media only screen and (min-width: 420px)
+{
+    #introduction{
+        margin-left:0%;
+    }
+    #textbox{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px;
+    }
+    #textbox p{
+        font-size: 18px;
+    }
+    #card-1{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-2{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 10%;
+        width: 270px;
+        height: 270px;
+    }
+
+    #textbox2{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 180px;
+        border-radius: 15px;
+    }
+    #textbox2 p{
+        font-size: 18px;
+    }
+    #card-4{
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 370px;
+        height: 243px;
+    }
+    
+    #textbox3{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #textbox3 p{
+        font-size: 18px;
+    }
+    
+    #textbox4{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 305px;
+        border-radius: 15px;
+    }
+    #textbox4 p{
+        font-size: 18px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        margin-bottom: 3%;
+        width: 350px;
+        height: 220px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        width: 350px;
+        height: 220px;
+    }
+    
+    #textbox5{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 125px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 18px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 550px */
+@media only screen and (min-width: 550px) 
+{
+    #introduction{
+        margin-left:2%;
+    }
+    #textbox{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox p{
+        font-size: 20px;
+    }
+    #card-1{
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-2{
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 20%;
+        width: 270px;
+        height: 270px;
+    }
+
+    #textbox2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 20px;
+    }
+    #card-4{
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 370px;
+        height: 250px;
+    }
+    
+    #textbox3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 20px;
+    }
+    
+    #textbox4{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 285px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 20px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        margin-bottom: 3%;
+        width: 560px;
+        height: 300px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 2.5%;
+        width: 560px;
+        height: 300px;
+    }
+    
+    #textbox5{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 7.5%;
+        width: 100%;
+        height: 110px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 750px  */
+@media only screen and (min-width: 750px)
+{
+    #introduction{
+        margin-left:5%;
+    }
+    #textbox{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 145px;
+    }
+    #textbox p{
+        font-size: 22px;
+    }
+    #card-1{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-2{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 20%;
+        width: 280px;
+        height: 280px;
+    }
+
+    #textbox2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 22px;
+    }
+    #card-4{
+        margin-top: 20px;
+        margin-left: 20%;
+        width: 370px;
+        height: 250px;
+    }
+    
+    #textbox3{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 22px;
+    }
+    
+    #textbox4{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 290px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 22px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 7.5%;
+        margin-bottom: 3%;
+        width: 560px;
+        height: 315px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 7.5%;
+        width: 560px;
+        height: 315px;
+    }
+    
+    #textbox5{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 120px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 22px;
+    }
+}
+/* Para aparelhos com ecrãs maiores que 990px */
+@media only screen and (min-width: 990px)
+{
+    #introduction{
+        margin-left: 5%;
+    }
+    #textbox{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 115px;
+    }
+    #textbox p{
+        font-size: 20px;
+    }
+    #card-1{
+        margin-top: 0px;
+        margin-left: 5%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-2{
+        margin-top: 0px;
+        margin-left: 0%;
+        width: 370px;
+        height: 200px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 30%;
+        width: 300px;
+        height: 300px;
+    }
+
+    #textbox2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 75%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 20px;
+    }
+    #card-4{
+        margin-top: 0px;
+        margin-left: 20%;
+        width: 370px;
+        height: 250px;
+    }
+    
+    #textbox3{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 75%;
+        height: 150px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 20px;
+    }
+    
+    #textbox4{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 210px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 20px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 15%;
+        margin-bottom: 3%;
+        width: 640px;
+        height: 360px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 15%;
+        width: 640px;
+        height: 360px;
+    }
+    
+    #textbox5{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 95px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1200px */
+@media only screen and (min-width: 1200px)
+{
+    #introduction{
+        margin-left: 10%;
+    }
+    #textbox{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 120px;
+    }
+    #textbox p{
+        font-size: 22px;
+    }
+    #card-1{
+        margin-left: 10%;
+        width: 420px;
+        height: 280px;
+    }
+    #card-2{
+        width: 420px;
+        height: 280px;
+    }
+    #card-3{
+        margin-top: 3%;
+        margin-left: 35%;
+        width: 340px;
+        height: 340px;
+    }
+
+    #textbox2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 75%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 22px;
+    }
+    #card-4{
+        margin-top: 0%;
+        margin-left: 25%;
+        width: 420px;
+        height: 280px;
+    }
+    
+    #textbox3{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 75%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 22px;
+    }
+    
+    #textbox4{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 210px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 22px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 20%;
+        margin-bottom: 3%;
+        width: 640px;
+        height: 360px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 20%;
+        width: 640px;
+        height: 360px;
+    }
+    
+    #textbox5{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 75%;
+        height: 100px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 22px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1500px */
+@media only screen and (min-width: 1500px)
+{
+    #introduction{
+        margin-left: 10%;
+    }
+    #textbox{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 120px;
+    }
+    #textbox p{
+        font-size: 22px;
+    }
+    #card-1{
+        margin-left: 5%;
+        width: 420px;
+        height: 280px;
+    }
+    #card-3{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 280px;
+        height: 280px;
+    }
+
+    #textbox2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 45%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 22px;
+    }
+    #card-4{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 420px;
+        height: 280px;
+    }
+    
+    #textbox3{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 45%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 22px;
+    }
+    
+    #textbox4{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 22px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+        width: 520px;
+        height: 300px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 520px;
+        height: 300px;
+    }
+    
+    #textbox5{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 35%;
+        height: 120px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 22px;
+    }
+}
+
+/* Para aparelhos com ecrãs maiores que 1900px */
+@media only screen and (min-width: 1900px)
+{
+    #introduction{
+        margin-left: 10%;
+    }
+    #textbox{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 100px;
+    }
+    #textbox p{
+        font-size: 22px;
+    }
+    #card-1{
+        margin-left: 12%;
+    }
+    #card-3{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 340px;
+        height: 340px;
+    }
+
+    #textbox2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 35%;
+        height: 160px;
+        border-radius: 20px;
+    }
+    #textbox2 p{
+        font-size: 22px;
+    }
+    #card-4{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 420px;
+        height: 280px;
+    }
+    
+    #textbox3{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 35%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox3 p{
+        font-size: 22px;
+    }
+    
+    #textbox4{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 100%;
+        height: 190px;
+        border-radius: 20px;
+    }
+    #textbox4 p{
+        font-size: 22px;
+    }
+    #card-5{
+        margin-right: 0%;
+        margin-left: 10%;
+        width: 640px;
+        height: 360px;
+    }
+    #card-6{
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 640px;
+        height: 360px;
+    }
+    
+    #textbox5{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        width: 35%;
+        height: 120px;
+        border-radius: 20px;
+    }
+    #textbox5 p{
+        font-size: 22px;
+    }
 }

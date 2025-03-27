@@ -42,50 +42,127 @@ body main a{
     width: 40%;
     flex-basis: 57%;
     height: 20%;
-    /* border-radius: 5px; */
     overflow: hidden;
 }
 #imagebox img{
     width: 100%;
 }
 
-
-/* Para aparelhos com ecrãs mais pequenos que 420px e maiores que 225px */
-@media only screen and (max-width: 420px) and (min-width:225px)
+/* Para aparelhos com ecrãs mais pequenos que 420px */
+@media only screen and (min-width: 300px) 
 {
-
+    body main a{
+        font-size: 22px;
+    }
+    body main{
+        margin-left: 5%;
+    }
+    body main div{
+        flex-basis: 30%;
+    }
+    #imagebox{
+        flex-basis: 68%;
+    }
 }
-/* Para aparelhos com ecrãs mais pequenos que 5990px e maiores que 420px */
-@media only screen and (max-width: 599px) and (min-width: 420px) 
-{
 
+/* Para aparelhos com ecrãs maiores que 420px */
+@media only screen and (min-width: 420px)
+{
+    body main a{
+        font-size: 22px;
+    }
+    body main{
+        margin-left: 5%;
+    }
+    body main div{
+        flex-basis: 30%;
+    }
+    #imagebox{
+        flex-basis: 68%;
+    }
 }
 
-/* Para aparelhos com ecrãs mais pequenos que 600px */
-@media only screen and (max-width: 600px)
+/* Para aparelhos com ecrãs maiores que 550px */
+@media only screen and (min-width: 550px) 
 {
-
-}
-
-/* Para aparelhos com ecrãs mais pequenos que 750px e maiores que 600px */
-@media only screen and (max-width: 750px) and (min-width: 600px) 
-{
-
+    body main a{
+        font-size: 20px;
+    }
+    body main{
+        margin-left: 5%;
+    }
+    body main div{
+        flex-basis: 30%;
+    }
+    #imagebox{
+        flex-basis: 68%;
+    }
 }
 
 /* Para aparelhos com ecrãs maiores que 750px  */
 @media only screen and (min-width: 750px)
 {
-
+    body main a{
+        font-size: 22px;
+    }
+    body main{
+        margin-left: 8%;
+    }
+    body main div{
+        flex-basis: 30%;
+    }
+    #imagebox{
+        flex-basis: 68%;
+    }
 }
 /* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px)
 {
-
+    body main a{
+        font-size: 24px;
+    }
+    body main{
+        margin-left: 8%;
+    }
+    body main div{
+        flex-basis: 35%;
+    }
+    #imagebox{
+        flex-basis: 60%;
+    }
 }
 
 /* Para aparelhos com ecrãs maiores que 1200px */
 @media only screen and (min-width: 1200px)
-{  
+{
+    body main a{
+        font-size: 26px;
+    }
+    body main{
+        margin-left: 10%;
+    }
+    body main div{
+        flex-basis: 40%;
+    }
+    #imagebox{
+        width: 40%;
+        flex-basis: 57%;
+        height: 20%;
+    }
+}
 
+/* Para aparelhos com ecrãs maiores que 1500px */
+@media only screen and (min-width: 1500px)
+{
+    body main a{
+        font-size: 28px;
+    }
+    body main div{
+        flex-basis: 40%;
+    }
+    #imagebox{
+        width: 40%;
+        flex-basis: 57%;
+        height: 20%;
+    }
 }
